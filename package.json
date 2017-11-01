@@ -1,0 +1,46 @@
+{
+  "name": "Mobile_Events",
+  "version": "1.0.0",
+  "description": "Beer pong project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack src/main.js dist/bundle.js",
+    "dev": "NODE_ENV=dev webpack",
+    "prod": "webpack",
+    "devserver": "webpack-dev-server",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hhochart29/Sockanvas/tree/mobileAPI"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "Guillaume Duclos",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "dat.gui": "^0.6.1",
+    "file-loader": "^1.1.5",
+    "gsap": "^1.20.3",
+    "image-webpack-loader": "^3.4.2",
+    "jquery": "^3.2.1",
+    "jquery-mousewheel": "^3.1.13",
+    "stats.js": "^0.17.0",
+    "three": "^0.87.1",
+    "tilt.js": "^1.2.0",
+    "url-loader": "^0.6.2",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
