@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const dev = process.env.NODE_ENV === 'dev';
+const production = process.env.NODE_ENV === 'production';
 
 let config = {
   entry: './src/js/main.js',
