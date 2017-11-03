@@ -9,7 +9,8 @@ let config = {
   devtool: 'eval-source-map',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: process.env.NODE_ENV === "production" ? "./" : "/dist"
   },
   module: {
     rules: [

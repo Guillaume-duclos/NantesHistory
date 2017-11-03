@@ -1,4 +1,4 @@
-import '../style.css';
+require '../style.css';
 import tilt from 'tilt.js';
 import mousewheel from 'jquery-mousewheel';
 import { Event } from './Event.js';
